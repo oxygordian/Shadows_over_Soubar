@@ -208,6 +208,30 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 ## <a name="versions" id="versions"></a>Version History
 
+#### Version 2.0 (Upcoming version)
+
+- Biffing is now an optional installation component.
+- Fixed militia training quest when only 9 new guard are trained.
+- Fixed CTDs in AR4261, AR4260 and AR4258 areas.
+- Restored TIS and WED files of Soubar for oBG2.
+- Fixed oBG2 visual bug in sir Williams house (AR1004).
+- Updated worldmap areas for Chionthar, Soubar and Lyrar's Hold.
+- Corrected automap notes in Soubar and Soubar prison.
+- Traified missing lines (setup, kit name, debug prints).
+- Added missing identified description to some letters.
+- Moved movies to language directory so they can be replaced by local language version.
+- Moved some NPC sounds files to language directory - now can be replaced by local language version.
+
+##
+
+#### Version 1.16 (September 28, 2021)
+
+- Fixed install error for non-English versions: Added needed dlls for iconv.exe.
+- Added inn2616.sto in case it is not existent ingame (BGII:EE).
+- Added install order syntax and globally unique labelling to .ini to support Project Infinity.
+
+##
+
 #### Version 1.15 (February 21, 2020)
 
 - Added *sos.ini* metadata file to support AL|EN's "Project Infinity".
